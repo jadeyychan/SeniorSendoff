@@ -1,42 +1,11 @@
 @import url(https://fonts.googleapis.com/css?family=Roboto);
 
+/* Template */
 body {
 	font-family: 'Roboto', sans-serif;
 }
 p {
 	font-size: 30px;
-}
-
-.title {
-	text-align: center;
-}
-.title img{
-	margin: 50px auto 0px auto;
-	/*background-image: url("landingImage.png");*/
-	width: 80%;
-}
-
-.startButton {
-	border: 2px solid black;
-	width: 200px;
-	height: 50px;
-	margin: auto;
-	margin-bottom: none;
-	font-size: 20px;
-	border-radius: 40px;
-	outline: none;
-	background-color: white;
-	color: black;
-}
-
-.startButton:hover {
-	background-color: lightgray;
-}
-
-#sectionA {
-	padding: 0px;
-	width: 80%;
-	margin:auto;
 }
 
 .section {
@@ -71,10 +40,60 @@ p {
 
 .fa {
 	font-size: 30px;
-	/*margin: auto;*/
 	color: white;
-	padding-left: 550px;
-	margin-top: 150px;
+	position: absolute;
+    transform: translate(2850%, 650%);
+}
+
+/* Slides */
+.title {
+	text-align: center;
+}
+
+.title img{
+	margin: 50px auto 0px auto;
+	width: 80%;
+}
+
+.startButton {
+	border: 2px solid black;
+	width: 200px;
+	height: 50px;
+	margin: auto;
+	margin-bottom: none;
+	font-size: 20px;
+	border-radius: 40px;
+	outline: none;
+	background-color: white;
+	color: black;
+}
+
+.startButton:hover {
+	background-color: lightgray;
+}
+
+.meet {
+	width: 60%;
+}
+
+.meet-next {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    margin-top: 60px;
+    font-style: oblique;
+    text-decoration: none;
+}
+
+.meet-next:hover {
+	font-style: normal;
+	/*text-decoration: none;*/
+}
+
+#section0-1 {
+	text-align: center;
+	background-color: #A9A9A9;
+	padding-top: 70px;
 }
 
 #section1 {

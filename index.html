@@ -2,248 +2,265 @@
 
 <html>
 <head>
-<title> PAC Senior Sendoff </title>
- <meta charset="utf-8">
- <meta name="viewport" content="width=device-width, initial-scale=1">
- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css">
-<link rel="stylesheet" type="text/css" href="index_style.css">
-<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
-<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
-<script src="index.js"></script>
-<link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css'>
+    <title> PAC Senior Sendoff </title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="css/index_style.css">
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+    <script src="js/index.js"></script>
+    <link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css'>
 </head>
+
 <body data-spy="scroll" data-target=".navbar" data-offset="50">
-<nav class="navbar navbar-inverse navbar-fixed-top">
-  <div class="container-fluid">
-    <div class="navbar-header">
-        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>                        
-      </button>
-      <a class="navbar-brand" href="#">Senior Sendoff</a>
+    <nav class="navbar navbar-inverse navbar-fixed-top">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>                        
+                </button>
+                <a class="navbar-brand" href="#">Senior Sendoff</a>
+            </div>
+            <div>
+                <div class="collapse navbar-collapse" id="myNavbar">
+                    <ul class="nav navbar-nav">
+                        <li><a href="#section1">1</a></li>
+                        <li><a href="#section2">2</a></li>
+                        <li><a href="#section3">3</a></li>
+                        <li><a href="#section4">4</a></li>
+                        <li><a href="#section5">5</a></li>
+                        <li><a href="#section6">6</a></li>
+                        <li><a href="#section7">7</a></li>
+                        <li><a href="#section8">8</a></li>
+                        <li><a href="#section9">9</a></li>
+                        <li><a href="#section10">10</a></li>
+                        <li><a href="#section11">11</a></li>
+                        <li><a href="#section12">12</a></li>
+                        <li><a href="#section13">13</a></li>
+                        <li><a href="#section14">14</a></li>
+                        <li><a href="#section15">15</a></li>
+                        <li><a href="#section16">16</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </nav>    
+
+    <div class="section" id="section0" class="container-fluid">
+    	<div class="title">
+    		<img src="img/landingImage.png"> </br>
+    		<a href="#section0-1"> <button class="startButton"> Start! </button> </a>
+    	</div>
     </div>
-    <div>
-      <div class="collapse navbar-collapse" id="myNavbar">
-        <ul class="nav navbar-nav">
-          <li><a href="#section1">1</a></li>
-          <li><a href="#section2">2</a></li>
-          <li><a href="#section3">3</a></li>
-          <li><a href="#section4">4</a></li>
-          <li><a href="#section5">5</a></li>
-          <li><a href="#section6">6</a></li>
-          <li><a href="#section7">7</a></li>
-          <li><a href="#section8">8</a></li>
-          <li><a href="#section9">9</a></li>
-          <li><a href="#section10">10</a></li>
-          <li><a href="#section11">11</a></li>
-          <li><a href="#section12">12</a></li>
-          <li><a href="#section13">13</a></li>
-          <li><a href="#section14">14</a></li>
-          <li><a href="#section15">15</a></li>
-          <li><a href="#section16">16</a></li>
-        </ul>
-      </div>
+
+    <div class="section" id="section0-1" class="container-fluid">
+        <img class="meet" src="img/meetthepeeps.png"> </br>
+        <a href="#section1"> <div class="meet-next"> I got it! </div></a>
     </div>
-  </div>
-</nav>    
 
-<div class="section" id="section0" class="container-fluid">
-	<div class="title">
-		<img src="landingImage.png"> </br>
-		<a href="#sectionA"> <button class="startButton"> Start! </button> </a>
-	</div>
-</div>
-<div class="section" id="sectionA" class="container-fluid">
-  <div class="title">
-    <img src="meetthepeeps.png"> </br>
-  </div>
-  <a href="#section1"> <i class="fa fa-angle-down" aria-hidden="true"></i> </a>
-</div>
-<div class="section" id="section1" class="container-fluid">
-  <h1>Question #1: </h1>
-  <p> Which senior is obsessed with Chobani? </p>
-  <div class="answer_buttons">
-    <button class="ans" id="incorrect" onclick="incorrect()"> Laura Chang </button>
-    <button class="ans" id="incorrect" onclick="incorrect()"> Phuong Ta </button>
-    <button class="ans" id="correct" onclick="correct()" > Jim Mao </button>
-    <button class="ans" id="incorrect" onclick="incorrect()"> Clifford Chao </button>
-  </div>
-  <a href="#section2"> <i class="fa fa-angle-down" aria-hidden="true"></i> </a>
-</div>
-<div class="section" id="section2" class="container-fluid">
-  <h1>Question #2:</h1>
-  <p> Which senior once hosted a talk show? </p>
-  <div class="answer_buttons">
-    <button class="ans" id="incorrect" onclick="incorrect()"> Melissa Hwang </button>
-    <button class="ans" id="incorrect" onclick="incorrect()"> Ravi Popat </button>
-    <button class="ans" id="correct" onclick="correct()" > Michelle Lau </button>
-    <button class="ans" id="incorrect" onclick="incorrect()"> Laura Chang</button>
-  </div>
-  <a href="#section3"> <i class="fa fa-angle-down" aria-hidden="true"></i> </a>
-</div>
-<div class="section" id="section3" class="container-fluid">
-  <h1>Question #3:</h1>
-  <p> Which senior follows @corgibums on instagram? </p>
-  <div class="answer_buttons">
-    <button class="ans" id="incorrect" onclick="incorrect()"> Jim Mao </button>
-    <button class="ans" id="incorrect" onclick="incorrect()"> Clifford Chao </button>
-    <button class="ans" id="correct" onclick="correct()" > Melissa Hwang </button>
-    <button class="ans" id="incorrect" onclick="incorrect()"> Sharan Motiani </button>
-  </div>
-  <a href="#section4"> <i class="fa fa-angle-down" aria-hidden="true"></i> </a>
-</div>
-<div class="section" id="section4" class="container-fluid">
-  <h1>Question #4: </h1>
-  <p> Which senior spoke at the Harvard Graduate School of Education? </p>
-  <div class="answer_buttons">
-    <button class="ans" id="incorrect" onclick="incorrect()"> Ravi Popat </button>
-    <button class="ans" id="incorrect" onclick="incorrect()"> Laura Chang </button>
-    <button class="ans" id="incorrect" onclick="incorrect()"> Michelle Lau </button>
-    <button class="ans" id="correct" onclick="correct()" > Phuong Ta </button>
-  </div>
-  <a href="#section5"> <i class="fa fa-angle-down" aria-hidden="true"></i> </a>
-</div>
-<div class="section" id="section5" class="container-fluid">
-  <h1>Question #5: </h1>
-  <p> Which senior can run a mile under 7 minutes? </p>
-  <div class="answer_buttons">
-    <button class="ans" id="incorrect" onclick="incorrect()"> Michelle Lau </button>
-    <button class="ans" id="incorrect" onclick="incorrect()"> Sharan Motiani </button>
-    <button class="ans" id="correct" onclick="correct()" > Clifford Chao </button>
-    <button class="ans" id="incorrect" onclick="incorrect()"> Melissa Hwang</button>
-  </div>
-  <a href="#section6"> <i class="fa fa-angle-down" aria-hidden="true"></i> </a>
-</div>
-<div class="section" id="section6" class="container-fluid">
-  <h1>Question #6</h1>
-  <p> Who speaks in a british accent when talking to his/her parents?</p>
-  <div class="answer_buttons">
-    <button class="ans" id="correct" onclick="correct()" >Ravi Popat</button>
-    <button class="ans" id="incorrect" onclick="incorrect()"> Michelle Lau </button>
-    <button class="ans" id="incorrect" onclick="incorrect()"> Clifford Chao</button>
-    <button class="ans" id="incorrect" onclick="incorrect()"> Laura Chang </button>
-  </div>
-  <a href="#section7"> <i class="fa fa-angle-down" aria-hidden="true"></i> </a>
-</div>
-<div class="section" id="section7" class="container-fluid">
-  <h1>Question #7</h1>
-  <p> Which senior bakes chocolate brownies, but refuses to eat chocolate? </p>
-  <div class="answer_buttons">
-    <button class="ans" id="incorrect" onclick="incorrect()"> Laura Chang </button>
-    <button class="ans" id="correct" onclick="correct()" > Melissa Hwang</button>
-    <button class="ans" id="incorrect" onclick="incorrect()"> Jim Mao </button>
-    <button class="ans" id="incorrect" onclick="incorrect()"> Phuong Ta</button>
-  </div>
-  <a href="#section8"> <i class="fa fa-angle-down" aria-hidden="true"></i> </a>
-</div>
-<div class="section" id="section8" class="container-fluid">
-  <h1>Question #8</h1>
-  <p> Which senior is a die-hard liverpool fan, whose favorite player is Steven Gerrard?</p>
-  <div class="answer_buttons">
-    <button class="ans" id="correct" onclick="correct()" > Sharan Motiani </button>
-    <button class="ans" id="incorrect" onclick="incorrect()"> Ravi Popat </button>
-    <button class="ans" id="incorrect" onclick="incorrect()"> Laura Chang </button>
-    <button class="ans" id="incorrect" onclick="incorrect()"> Jim Mao </button>
-  </div>
-  <a href="#section9"> <i class="fa fa-angle-down" aria-hidden="true"></i> </a>
-</div>
-<div class="section" id="section9" class="container-fluid">
-  <h1>Question #9</h1>
-  <p> Which senior wrote his/her SSP analyzing the structure of culture clubs? </p>
-  <div class="answer_buttons">
-    <button class="ans" id="incorrect" onclick="incorrect()"> Clifford Chao </button>
-    <button class="ans" id="correct" onclick="correct()" > Michelle Lau </button>
-    <button class="ans" id="incorrect" onclick="incorrect()"> Laura Chang </button>
-    <button class="ans" id="incorrect" onclick="incorrect()"> Phuong Ta  </button>
-  </div>
-  <a href="#section10"> <i class="fa fa-angle-down" aria-hidden="true"></i> </a>
-</div>
-<div class="section" id="section10" class="container-fluid">
-  <h1>Question #10</h1>
-  <p> Which senior can eat extremely spicy food, but gets super sweaty as a result? </p>
-  <div class="answer_buttons">
-    <button class="ans" id="correct" onclick="correct()" > Clifford Chao </button>
-    <button class="ans" id="incorrect" onclick="incorrect()"> Melissa Hwang </button>
-    <button class="ans" id="incorrect" onclick="incorrect()"> Michelle Lau </button>
-    <button class="ans" id="incorrect" onclick="incorrect()"> Ravi Popat </button>
-  </div>
-  <a href="#section11"> <i class="fa fa-angle-down" aria-hidden="true"></i> </a>
-</div>
-<div class="section" id="section11" class="container-fluid">
-  <h1>Question #11</h1>
-  <p> Which senior used to believe that there was an international no peeing day?</p>
-  <div class="answer_buttons">
-    <button class="ans" id="incorrect" onclick="incorrect()"> Sharan Motiani </button>
-    <button class="ans" id="incorrect" onclick="incorrect()"> Jim Mao </button>
-    <button class="ans" id="incorrect" onclick="incorrect()"> Phuong Ta </button>
-    <button class="ans" id="correct" onclick="correct()" > Laura Chang</button>
-  </div>
-  <a href="#section12"> <i class="fa fa-angle-down" aria-hidden="true"></i> </a>
-</div>
-<div class="section" id="section12" class="container-fluid">
-  <h1>Question #12</h1>
-  <p> Which senior has worked as a Student Engagement Coordinator for BLAST? </p>
-  <div class="answer_buttons">
-    <button class="ans" id="incorrect" onclick="incorrect()"> Jim Mao</button>
-    <button class="ans" id="incorrect" onclick="incorrect()"> Michelle Lau </button>
-    <button class="ans" id="incorrect" onclick="incorrect()"> Clifford Chao </button>
-    <button class="ans" id="correct" onclick="correct()" > Phuong Ta </button>
-  </div>
-  <a href="#section13"> <i class="fa fa-angle-down" aria-hidden="true"></i> </a>
-</div>
-<div class="section" id="section13" class="container-fluid">
-  <h1>Question #13</h1>
-   <p> Which senior has a phobia of Connecticut?</p>
-  <div class="answer_buttons">
-    <button class="ans" id="incorrect" onclick="incorrect()"> Michelle Lau </button>
-    <button class="ans" id="correct" onclick="correct()" > Jim Mao </button>
-    <button class="ans" id="incorrect" onclick="incorrect()"> Laura Chang </button>
-    <button class="ans" id="incorrect" onclick="incorrect()"> Ravi Popat </button>
-  </div>
-  <a href="#section14"> <i class="fa fa-angle-down" aria-hidden="true"></i> </a>
-</div>
-<div class="section" id="section14" class="container-fluid">
-  <h1>Question #14</h1>
-  <p> Which senior totaled a ZipCar last year? </p>
-  <div class="answer_buttons">
-    <button class="ans" id="incorrect" onclick="incorrect()"> Clifford Chao </button>
-    <button class="ans" id="incorrect" onclick="incorrect()"> Melissa Hwang </button>
-    <button class="ans" id="correct" onclick="correct()" > Sharan Motiani </button>
-    <button class="ans" id="incorrect" onclick="incorrect()"> Michelle Lau </button>
-  </div>
-  <a href="#section15"> <i class="fa fa-angle-down" aria-hidden="true"></i> </a>
-</div>
-<div class="section" id="section15" class="container-fluid">
-  <h1>Question #15</h1>
-  <p> Which senior has been on JumboRaas since freshman year? </p>
-  <div class="answer_buttons">
-    <button class="ans" id="incorrect" onclick="incorrect()"> Sharan Motiani </button>
-    <button class="ans" id="incorrect" onclick="incorrect()"> Michelle Lau </button>
-    <button class="ans" id="correct" onclick="correct()" > Ravi Popat</button>
-    <button class="ans" id="incorrect" onclick="incorrect()"> Clifford Chao </button>
-  </div>
-  <a href="#section16"> <i class="fa fa-angle-down" aria-hidden="true"></i> </a>
-</div>
-<div class="section" id="section16" class="container-fluid">
-  <h1>Question #16</h1>
-  <p> Which senior was in a Jay Chou music video?</p>
-  <div class="answer_buttons">
-    <button class="ans" id="correct" onclick="correct()" > Laura Chang </button>
-    <button class="ans" id="incorrect" onclick="incorrect()"> Melissa Hwang </button>
-    <button class="ans" id="incorrect" onclick="incorrect()"> Michelle Lau </button>
-    <button class="ans" id="incorrect" onclick="incorrect()"> Jim Mao</button>
-  </div>
-  <a href="#section17"> <i class="fa fa-angle-down" aria-hidden="true"></i> </a>
-</div>
-<div class="section" id="section17" class="container-fluid">
-  <div class="title">
-    <img id="peacesign" src="peacesign.png"> </br>
-  </div>
-  <div class="goodbye"> GOODBYE Y'ALL </h1>
-</div>
+    <div class="section" id="section1" class="container-fluid">
+        <h1>Question #1: </h1>
+            <p> Which senior is obsessed with Chobani? </p>
+            <div class="answer_buttons">
+                <button class="ans" id="incorrect" onclick="incorrect()"> Laura Chang </button>
+                <button class="ans" id="incorrect" onclick="incorrect()"> Phuong Ta </button>
+                <button class="ans" id="correct" onclick="correct()" > Jim Mao </button>
+                <button class="ans" id="incorrect" onclick="incorrect()"> Clifford Chao </button>
+            </div>
+            <a href="#section2"> <i class="fa fa-angle-down" aria-hidden="true"></i> </a>
+    </div>
 
+    <div class="section" id="section2" class="container-fluid">
+        <h1>Question #2:</h1>
+        <p> Which senior once hosted a talk show? </p>
+        <div class="answer_buttons">
+            <button class="ans" id="incorrect" onclick="incorrect()"> Melissa Hwang </button>
+            <button class="ans" id="incorrect" onclick="incorrect()"> Ravi Popat </button>
+            <button class="ans" id="correct" onclick="correct()" > Michelle Lau </button>
+            <button class="ans" id="incorrect" onclick="incorrect()"> Laura Chang</button>
+        </div>
+        <a href="#section3"> <i class="fa fa-angle-down" aria-hidden="true"></i> </a>
+    </div>
 
+    <div class="section" id="section3" class="container-fluid">
+        <h1>Question #3:</h1>
+        <p> Which senior follows @corgibums on instagram? </p>
+        <div class="answer_buttons">
+            <button class="ans" id="incorrect" onclick="incorrect()"> Jim Mao </button>
+            <button class="ans" id="incorrect" onclick="incorrect()"> Clifford Chao </button>
+            <button class="ans" id="correct" onclick="correct()" > Melissa Hwang </button>
+            <button class="ans" id="incorrect" onclick="incorrect()"> Sharan Motiani </button>
+        </div>
+        <a href="#section4"> <i class="fa fa-angle-down" aria-hidden="true"></i> </a>
+    </div>
+
+    <div class="section" id="section4" class="container-fluid">
+        <h1>Question #4: </h1>
+        <p> Which senior spoke at the Harvard Graduate School of Education? </p>
+        <div class="answer_buttons">
+            <button class="ans" id="incorrect" onclick="incorrect()"> Ravi Popat </button>
+            <button class="ans" id="incorrect" onclick="incorrect()"> Laura Chang </button>
+            <button class="ans" id="incorrect" onclick="incorrect()"> Michelle Lau </button>
+            <button class="ans" id="correct" onclick="correct()" > Phuong Ta </button>
+        </div>
+        <a href="#section5"> <i class="fa fa-angle-down" aria-hidden="true"></i> </a>
+    </div>
+
+    <div class="section" id="section5" class="container-fluid">
+        <h1>Question #5: </h1>
+        <p> Which senior can run a mile under 7 minutes? </p>
+        <div class="answer_buttons">
+            <button class="ans" id="incorrect" onclick="incorrect()"> Michelle Lau </button>
+            <button class="ans" id="incorrect" onclick="incorrect()"> Sharan Motiani </button>
+            <button class="ans" id="correct" onclick="correct()" > Clifford Chao </button>
+            <button class="ans" id="incorrect" onclick="incorrect()"> Melissa Hwang</button>
+        </div>
+        <a href="#section6"> <i class="fa fa-angle-down" aria-hidden="true"></i> </a>
+    </div>
+
+    <div class="section" id="section6" class="container-fluid">
+        <h1>Question #6</h1>
+        <p> Who speaks in a british accent when talking to his/her parents?</p>
+        <div class="answer_buttons">
+            <button class="ans" id="correct" onclick="correct()" >Ravi Popat</button>
+            <button class="ans" id="incorrect" onclick="incorrect()"> Michelle Lau </button>
+            <button class="ans" id="incorrect" onclick="incorrect()"> Clifford Chao</button>
+            <button class="ans" id="incorrect" onclick="incorrect()"> Laura Chang </button>
+        </div>
+        <a href="#section7"> <i class="fa fa-angle-down" aria-hidden="true"></i> </a>
+    </div>
+
+    <div class="section" id="section7" class="container-fluid">
+        <h1>Question #7</h1>
+        <p> Which senior bakes chocolate brownies, but refuses to eat chocolate? </p>
+        <div class="answer_buttons">
+            <button class="ans" id="incorrect" onclick="incorrect()"> Laura Chang </button>
+            <button class="ans" id="correct" onclick="correct()" > Melissa Hwang</button>
+            <button class="ans" id="incorrect" onclick="incorrect()"> Jim Mao </button>
+            <button class="ans" id="incorrect" onclick="incorrect()"> Phuong Ta</button>
+        </div>
+        <a href="#section8"> <i class="fa fa-angle-down" aria-hidden="true"></i> </a>
+    </div>
+
+    <div class="section" id="section8" class="container-fluid">
+        <h1>Question #8</h1>
+        <p> Which senior is a die-hard liverpool fan, and loves Steven Gerrard?</p>
+        <div class="answer_buttons">
+            <button class="ans" id="correct" onclick="correct()" > Sharan Motiani </button>
+            <button class="ans" id="incorrect" onclick="incorrect()"> Ravi Popat </button>
+            <button class="ans" id="incorrect" onclick="incorrect()"> Laura Chang </button>
+            <button class="ans" id="incorrect" onclick="incorrect()"> Jim Mao </button>
+        </div>
+        <a href="#section9"> <i class="fa fa-angle-down" aria-hidden="true"></i> </a>
+    </div>
+
+    <div class="section" id="section9" class="container-fluid">
+        <h1>Question #9</h1>
+        <p> Which senior wrote his/her SSP analyzing the structure of culture clubs? </p>
+        <div class="answer_buttons">
+            <button class="ans" id="incorrect" onclick="incorrect()"> Clifford Chao </button>
+            <button class="ans" id="correct" onclick="correct()" > Michelle Lau </button>
+            <button class="ans" id="incorrect" onclick="incorrect()"> Laura Chang </button>
+            <button class="ans" id="incorrect" onclick="incorrect()"> Phuong Ta  </button>
+        </div>
+        <a href="#section10"> <i class="fa fa-angle-down" aria-hidden="true"></i> </a>
+    </div>
+
+    <div class="section" id="section10" class="container-fluid">
+        <h1>Question #10</h1>
+        <p> Which senior can eat extremely spicy food, but gets super sweaty as a result? </p>
+        <div class="answer_buttons">
+            <button class="ans" id="correct" onclick="correct()" > Clifford Chao </button>
+            <button class="ans" id="incorrect" onclick="incorrect()"> Melissa Hwang </button>
+            <button class="ans" id="incorrect" onclick="incorrect()"> Michelle Lau </button>
+            <button class="ans" id="incorrect" onclick="incorrect()"> Ravi Popat </button>
+        </div>
+        <a href="#section11"> <i class="fa fa-angle-down" aria-hidden="true"></i> </a>
+    </div>
+
+    <div class="section" id="section11" class="container-fluid">
+        <h1>Question #11</h1>
+        <p> Which senior used to believe that there was an international no peeing day?</p>
+        <div class="answer_buttons">
+            <button class="ans" id="incorrect" onclick="incorrect()"> Sharan Motiani </button>
+            <button class="ans" id="incorrect" onclick="incorrect()"> Jim Mao </button>
+            <button class="ans" id="incorrect" onclick="incorrect()"> Phuong Ta </button>
+            <button class="ans" id="correct" onclick="correct()" > Laura Chang</button>
+        </div>
+        <a href="#section12"> <i class="fa fa-angle-down" aria-hidden="true"></i> </a>
+    </div>
+
+    <div class="section" id="section12" class="container-fluid">
+        <h1>Question #12</h1>
+        <p> Which senior has worked as a Student Engagement Coordinator for BLAST? </p>
+        <div class="answer_buttons">
+            <button class="ans" id="incorrect" onclick="incorrect()"> Jim Mao</button>
+            <button class="ans" id="incorrect" onclick="incorrect()"> Michelle Lau </button>
+            <button class="ans" id="incorrect" onclick="incorrect()"> Clifford Chao </button>
+            <button class="ans" id="correct" onclick="correct()" > Phuong Ta </button>
+        </div>
+        <a href="#section13"> <i class="fa fa-angle-down" aria-hidden="true"></i> </a>
+    </div>
+
+    <div class="section" id="section13" class="container-fluid">
+        <h1>Question #13</h1>
+        <p> Which senior has a phobia of Connecticut?</p>
+        <div class="answer_buttons">
+            <button class="ans" id="incorrect" onclick="incorrect()"> Michelle Lau </button>
+            <button class="ans" id="correct" onclick="correct()" > Jim Mao </button>
+            <button class="ans" id="incorrect" onclick="incorrect()"> Laura Chang </button>
+            <button class="ans" id="incorrect" onclick="incorrect()"> Ravi Popat </button>
+        </div>
+          <a href="#section14"> <i class="fa fa-angle-down" aria-hidden="true"></i> </a>
+    </div>
+
+    <div class="section" id="section14" class="container-fluid">
+        <h1>Question #14</h1>
+        <p> Which senior totaled a ZipCar last year? </p>
+        <div class="answer_buttons">
+            <button class="ans" id="incorrect" onclick="incorrect()"> Clifford Chao </button>
+            <button class="ans" id="incorrect" onclick="incorrect()"> Melissa Hwang </button>
+            <button class="ans" id="correct" onclick="correct()" > Sharan Motiani </button>
+            <button class="ans" id="incorrect" onclick="incorrect()"> Michelle Lau </button>
+        </div>
+          <a href="#section15"> <i class="fa fa-angle-down" aria-hidden="true"></i> </a>
+    </div>
+
+    <div class="section" id="section15" class="container-fluid">
+        <h1>Question #15</h1>
+        <p> Which senior has been on JumboRaas since freshman year? </p>
+        <div class="answer_buttons">
+            <button class="ans" id="incorrect" onclick="incorrect()"> Sharan Motiani </button>
+            <button class="ans" id="incorrect" onclick="incorrect()"> Michelle Lau </button>
+            <button class="ans" id="correct" onclick="correct()" > Ravi Popat</button>
+            <button class="ans" id="incorrect" onclick="incorrect()"> Clifford Chao </button>
+        </div>
+          <a href="#section16"> <i class="fa fa-angle-down" aria-hidden="true"></i> </a>
+    </div>
+
+    <div class="section" id="section16" class="container-fluid">
+        <h1>Question #16</h1>
+        <p> Which senior was in a Jay Chou music video?</p>
+        <div class="answer_buttons">
+            <button class="ans" id="correct" onclick="correct()" > Laura Chang </button>
+            <button class="ans" id="incorrect" onclick="incorrect()"> Melissa Hwang </button>
+            <button class="ans" id="incorrect" onclick="incorrect()"> Michelle Lau </button>
+            <button class="ans" id="incorrect" onclick="incorrect()"> Jim Mao</button>
+        </div>
+          <a href="#section17"> <i class="fa fa-angle-down" aria-hidden="true"></i> </a>
+    </div>
+
+    <div class="section" id="section17" class="container-fluid">
+        <div class="title">
+            <img id="peacesign" src="img/peacesign.png"> </br>
+        </div>
+        <div class="goodbye"> GOODBYE Y'ALL </h1>
+    </div>
 </body>
 </html>
